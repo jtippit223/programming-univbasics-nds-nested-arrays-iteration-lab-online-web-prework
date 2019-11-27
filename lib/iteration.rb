@@ -14,7 +14,8 @@ def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
-  
+  src = [ :group1[1, 5] :group2[34,11]]
+  srcg = [group1.max, group2.max]
 end
 
 def total_even_pairs(src)
@@ -25,4 +26,5 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  
 end
